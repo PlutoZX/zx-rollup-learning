@@ -1,8 +1,8 @@
-import mytoast from './mytoast.vue'
+import fetoast from './FeToast.vue'
 
-const MyToast = {
+const Fetoast = {
   install: function (Vue) {
-    let ToastConstructor = Vue.extend(mytoast)
+    let ToastConstructor = Vue.extend(fetoast)
     let instance
     let instances = []
     Vue.prototype.$Fetoast = function (tip, duration) {
@@ -44,4 +44,4 @@ const MyToast = {
   }
 }
 
-export default MyToast
+export default Fetoast

@@ -4,9 +4,9 @@ import vue from 'rollup-plugin-vue' // 打包vue
 
 
 export default {
-  input: 'vueSrc/mytoast.js',
+  input: 'vueSrc/fetoast.js',
   output: {
-    file: 'vueDist/MyToast.js',
+    file: 'vueDist/FeToast.js',
     format: 'es'
   },
   plugins: [
